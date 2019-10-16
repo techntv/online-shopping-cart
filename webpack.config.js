@@ -44,7 +44,8 @@ module.exports = {
       template: './src/index.html'
     }),
     new CopyPlugin([
-      { from: 'data.json' }
+      { from: 'data.json' },
+      { from: '_redirects' }
     ]),
   ]
 }
