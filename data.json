@@ -1,0 +1,181 @@
+[{
+    "id": "0001",
+    "name": "Winter Coat from France",
+    "image": "http://api.demo.nordiccoder.com/images/product_1.png",
+    "thumbnail": "http://api.demo.nordiccoder.com/images/product_1.png",
+    "shortDescription": "product 1",
+    "category": "men",
+    "salePrice": 520,
+    "originalPrice": 590,
+    "images": [
+      "http://api.demo.nordiccoder.com/images/product_1_1.png",
+      "http://api.demo.nordiccoder.com/images/product_1_2.png"
+    ],
+    "thumbnails": [
+      "http://api.demo.nordiccoder.com/images/product_1_1.png",
+      "http://api.demo.nordiccoder.com/images/product_1_2.png"
+    ]
+  },
+  {
+    "id": "0002",
+    "name": "Italy Bag",
+    "image": "http://api.demo.nordiccoder.com/images/product_2.png",
+    "thumbnail": "http://api.demo.nordiccoder.com/images/product_2.png",
+    "shortDescription": "product 2",
+    "category": "women",
+    "salePrice": 610,
+    "originalPrice": 610,
+    "images": [
+      "http://api.demo.nordiccoder.com/images/product_2_1.png",
+      "http://api.demo.nordiccoder.com/images/product_2_2.png"
+    ],
+    "thumbnails": [
+      "http://api.demo.nordiccoder.com/images/product_2_1.png",
+      "http://api.demo.nordiccoder.com/images/product_2_2.png"
+    ]
+  },
+  {
+    "id": "0003",
+    "name": "Coat from France",
+    "image": "http://api.demo.nordiccoder.com/images/product_3.png",
+    "thumbnail": "http://api.demo.nordiccoder.com/images/product_3.png",
+    "shortDescription": "product 3",
+    "category": "accessories",
+    "salePrice": 520,
+    "originalPrice": 590,
+    "images": [
+      "http://api.demo.nordiccoder.com/images/product_3_1.png",
+      "http://api.demo.nordiccoder.com/images/product_3_2.png"
+    ],
+    "thumbnails": [
+      "http://api.demo.nordiccoder.com/images/product_3_1.png",
+      "http://api.demo.nordiccoder.com/images/product_3_2.png"
+    ]
+  },
+  {
+    "id": "0004",
+    "name": "Travel Bag from German",
+    "image": "http://api.demo.nordiccoder.com/images/product_4.png",
+    "thumbnail": "http://api.demo.nordiccoder.com/images/product_4.png",
+    "shortDescription": "product 4",
+    "category": "women",
+    "salePrice": 610,
+    "originalPrice": 610,
+    "images": [
+      "http://api.demo.nordiccoder.com/images/product_4_1.png",
+      "http://api.demo.nordiccoder.com/images/product_4_2.png"
+    ],
+    "thumbnails": [
+      "http://api.demo.nordiccoder.com/images/product_4_1.png",
+      "http://api.demo.nordiccoder.com/images/product_4_2.png"
+    ]
+  },
+  {
+    "id": "0005",
+    "name": "Modern Shoe from Japan",
+    "image": "http://api.demo.nordiccoder.com/images/product_5.png",
+    "thumbnail": "http://api.demo.nordiccoder.com/images/product_5.png",
+    "shortDescription": "product 5",
+    "category": "men",
+    "salePrice": 520,
+    "originalPrice": 590,
+    "images": [
+      "http://api.demo.nordiccoder.com/images/product_5_1.png",
+      "http://api.demo.nordiccoder.com/images/product_5_2.png"
+    ],
+    "thumbnails": [
+      "http://api.demo.nordiccoder.com/images/product_5_1.png",
+      "http://api.demo.nordiccoder.com/images/product_5_2.png"
+    ]
+  },
+  {
+    "id": "0006",
+    "name": "Italy Glasses",
+    "image": "http://api.demo.nordiccoder.com/images/product_6.png",
+    "thumbnail": "http://api.demo.nordiccoder.com/images/product_6.png",
+    "shortDescription": "product 6",
+    "category": "women",
+    "salePrice": 610,
+    "originalPrice": 610,
+    "images": [
+      "http://api.demo.nordiccoder.com/images/product_6_1.png",
+      "http://api.demo.nordiccoder.com/images/product_6_2.png"
+    ],
+    "thumbnails": [
+      "http://api.demo.nordiccoder.com/images/product_6_1.png",
+      "http://api.demo.nordiccoder.com/images/product_6_2.png"
+    ]
+  },
+  {
+    "id": "0007",
+    "name": "France Coat",
+    "image": "http://api.demo.nordiccoder.com/images/product_7.png",
+    "thumbnail": "http://api.demo.nordiccoder.com/images/product_7.png",
+    "shortDescription": "product 7",
+    "category": "accessories",
+    "salePrice": 520,
+    "originalPrice": 590,
+    "images": [
+      "http://api.demo.nordiccoder.com/images/product_7_1.png",
+      "http://api.demo.nordiccoder.com/images/product_7_2.png"
+    ],
+    "thumbnails": [
+      "http://api.demo.nordiccoder.com/images/product_7_1.png",
+      "http://api.demo.nordiccoder.com/images/product_7_2.png"
+    ]
+  },
+  {
+    "id": "0008",
+    "name": "Wool Pocket",
+    "image": "http://api.demo.nordiccoder.com/images/product_8.png",
+    "thumbnail": "http://api.demo.nordiccoder.com/images/product_8.png",
+    "shortDescription": "product 8",
+    "category": "accessories",
+    "salePrice": 610,
+    "originalPrice": 610,
+    "images": [
+      "http://api.demo.nordiccoder.com/images/product_8_1.png",
+      "http://api.demo.nordiccoder.com/images/product_8_2.png"
+    ],
+    "thumbnails": [
+      "http://api.demo.nordiccoder.com/images/product_8_1.png",
+      "http://api.demo.nordiccoder.com/images/product_8_2.png"
+    ]
+  },
+  {
+    "id": "0009",
+    "name": "Winter Coat from France",
+    "image": "http://api.demo.nordiccoder.com/images/product_1.png",
+    "thumbnail": "http://api.demo.nordiccoder.com/images/product_1.png",
+    "shortDescription": "product 1",
+    "category": "men",
+    "salePrice": 520,
+    "originalPrice": 590,
+    "images": [
+      "http://api.demo.nordiccoder.com/images/product_1_1.png",
+      "http://api.demo.nordiccoder.com/images/product_1_2.png"
+    ],
+    "thumbnails": [
+      "http://api.demo.nordiccoder.com/images/product_1_1.png",
+      "http://api.demo.nordiccoder.com/images/product_1_2.png"
+    ]
+  },
+  {
+    "id": "0010",
+    "name": "Italy Bag",
+    "image": "http://api.demo.nordiccoder.com/images/product_2.png",
+    "thumbnail": "http://api.demo.nordiccoder.com/images/product_2.png",
+    "shortDescription": "product 2",
+    "category": "women",
+    "salePrice": 610,
+    "originalPrice": 610,
+    "images": [
+      "http://api.demo.nordiccoder.com/images/product_2_1.png",
+      "http://api.demo.nordiccoder.com/images/product_2_2.png"
+    ],
+    "thumbnails": [
+      "http://api.demo.nordiccoder.com/images/product_2_1.png",
+      "http://api.demo.nordiccoder.com/images/product_2_2.png"
+    ]
+  }
+]

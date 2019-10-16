@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product component 1`] = `
+<div
+  className="col-md-6 col-lg-3"
+>
+  <div
+    className="product"
+  >
+    <div
+      className="product-image css-f9ikke-Product"
+    >
+      <img
+        alt="Winter Coat from France"
+        className="img-fluid css-y78e7o-Product"
+        src="http://api.demo.nordiccoder.com/images/product_1.png"
+      />
+    </div>
+    <div
+      className=""
+    >
+      <h3>
+        <a
+          className="css-acl8hv-Product"
+          href="#"
+        >
+          Winter Coat from France
+        </a>
+      </h3>
+      <div
+        className="pricing d-flex justify-content-between align-items-center mb-4"
+      >
+        <p
+          className="price mb-0"
+        >
+          <span
+            className="price-sale css-1veg0n1-Product"
+          >
+            520
+          </span>
+          <span
+            className=" mr-2 price-original css-6pi4qh-Product"
+          >
+            590
+          </span>
+        </p>
+        <button
+          className="btn btn-primary btn-sm"
+          onClick={[Function]}
+          type="button"
+        >
+          Add Cart
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
