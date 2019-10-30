@@ -13,31 +13,65 @@ const productListStyle = css({
 
 class ProductList extends React.Component<any, any> {
   state = {
-    productList: this.props.items
+    productList: this.props.items,
+    sortType: 'az'
   }
 
   handleAddToCart = (product: any) => {
     this.props.addToCart(product)
   }
 
+  handleChangeSort = (type: string) => {
+    this.setState({ sortType: type })
+  }
+
+  handleSortItems = (type: string) => {
+    let { items } = this.props;
+    switch (type) {
+      case 'az':
+        items.sort((a: any, b: any) => a.name.toLowerCase() === b.name.toLowerCase() ? 0 : a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1);
+        break;
+      case 'za':
+        items.sort((a: any, b: any) => a.name.toLowerCase() === b.name.toLowerCase() ? 0 : a.name.toLowerCase() > b.name.toLowerCase() ? -1 : 1)
+        break;
+      case 'lowtohigh':
+        items.sort((a: any, b: any) => a.salePrice - b.salePrice)
+        break;
+      case 'hightolow':
+        items.sort((a: any, b: any) => b.salePrice - a.salePrice)
+        break;
+      default:
+        return items
+    }
+    return items;
+  }
+
   componentDidMount() {
     this.props.fetchProducts()
   }
   render() {
-    let { productList } = this.state;
+    let { productList, sortType } = this.state;
     let { from, to, total, items } = this.props;
+    let itemsSort = this.handleSortItems(sortType)
+
     return <div className="container-fluid">
       <div className="row">
         <div className="col col-xs-12 col-md-3">
 
         </div>
         <div className="col col-xs-12 col-md-9">
-          <div className="my-4">
-            <p>Hiển thị {from}-{to} trên {total} </p>
+          <h1 className='display-1 font-weight-bold'>Products</h1>
+          <div className="my-4 text-right">
+            <select value={this.state.sortType} onChange={(e) => this.handleChangeSort(e.target.value)}>
+              <option value="az">Sort by A-Z</option>
+              <option value="za">Sort by Z-A</option>
+              <option value="lowtohigh">Sort by price: low to high</option>
+              <option value="hightolow">Sort by price: high to low</option>
+            </select>
           </div>
           <div className="product-list row" css={productListStyle}>
             {
-              items.map((product: IProductDetail, index: number) => {
+              itemsSort.map((product: IProductDetail, index: number) => {
                 return <Product product={product} key={product.name + index} handleAddToCart={this.handleAddToCart} />
               })
             }

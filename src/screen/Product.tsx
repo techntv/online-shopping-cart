@@ -2,6 +2,8 @@
 import React from 'react'
 import { css, jsx } from '@emotion/core'
 import { IProductDetail } from "../models/product"
+import { Link } from 'react-router-dom'
+
 const titleProduct = css({
   margin: '0',
   textDecoration: 'none',
@@ -56,7 +58,7 @@ const Product = ({ product, handleAddToCart }: IProductProps) => {
       </div>
       <div className="">
         <h3>
-          <a href="#" css={titleProduct}>{product.name}</a>
+          <Link to={`/products/${product.id}`} css={titleProduct}>{product.name}</Link>
         </h3>
         <div className="pricing d-flex justify-content-between align-items-center mb-4">
           <p className="price mb-0">

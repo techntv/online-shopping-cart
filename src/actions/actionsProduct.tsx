@@ -2,20 +2,18 @@ import * as types from './actionsTypes';
 
 export function fetchProducts() {
   return (dispatch: any, getState: any) => {
-    console.log('fetch Products middleware');
     dispatch({
       type: types.FETCH_PRODUCTS
     });
-    fetch('http://localhost:8080/data.json')
+    fetch('http://api.demo.nordiccoder.com/api/products')
       .then((res) => {
-        console.log(res.status);
         return res.json();
       })
       .then((json) => {
         // console.log('json', json.status);
         dispatch({
           type: types.FETCH_RECEIVE_PRODUCTS,
-          data: json,
+          data: json.body,
         });
       })
       .catch((error) => {
@@ -25,5 +23,30 @@ export function fetchProducts() {
         });
       });
 
+  }
+}
+
+export function fetchProductDetail(productid: string) {
+  return (dispatch: Function, getState: any) => {
+    dispatch({
+      type: types.FETCH_PRODUCT_DETAIL
+    });
+
+    fetch(`http://api.demo.nordiccoder.com/api/products/${productid}`)
+      .then((res) => {
+        return res.json();
+      })
+      .then((json) => {
+        dispatch({
+          type: types.FETCH_RECEIVE_PRODUCTDETAIL,
+          data: json.body
+        })
+      })
+      .catch((error) => {
+        dispatch({
+          type: types.FETCH_ERROR_PRODUCTDETAIL,
+          error,
+        });
+      });
   }
 }

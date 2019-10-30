@@ -11,6 +11,7 @@ import ProductList from './screen/ProductList'
 import Header from './layout/header'
 import { Provider } from 'react-redux';
 import store from './store'
+import ProductDetail from './screen/ProductDetail';
 class App extends React.Component {
   render() {
     return (
@@ -22,6 +23,7 @@ class App extends React.Component {
             <Route exact path="/about" component={About} />
             <Route exact path='/contact' component={Contact} />
             <Route exact path='/products' component={ProductList} />
+            <Route exact path='/products/:productid' component={ProductDetail} />
           </Switch>
         </BrowserRouter>
       </Provider>

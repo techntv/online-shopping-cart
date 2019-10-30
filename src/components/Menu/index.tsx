@@ -13,6 +13,7 @@ const nav = css`
 const navLink = css`
     min-width: 200px;
     text-align: center;
+    color: white;
     &:hover{
       text-decoration: none;
       font-weight: bold;
