@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import * as React from 'react';
-// import data from "../apiData.json"
+import data from "../../data.json"
 import Product from "./Product"
 import { css, jsx } from '@emotion/core'
 import { connect } from 'react-redux';
@@ -26,7 +26,7 @@ class ProductList extends React.Component<any, any> {
   }
 
   handleSortItems = (type: string) => {
-    let { items } = this.props;
+    let items = data;
     switch (type) {
       case 'az':
         items.sort((a: any, b: any) => a.name.toLowerCase() === b.name.toLowerCase() ? 0 : a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 1);

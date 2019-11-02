@@ -5,19 +5,19 @@ import * as React from 'react'
 const mockProduct = {
   "id": "0001",
   "name": "Winter Coat from France",
-  "image": "http://api.demo.nordiccoder.com/images/product_1.png",
-  "thumbnail": "http://api.demo.nordiccoder.com/images/product_1.png",
+  "image": "https://api.demo.nordiccoder.com/images/product_1.png",
+  "thumbnail": "https://api.demo.nordiccoder.com/images/product_1.png",
   "shortDescription": "product 1",
   "category": "men",
   "salePrice": 520,
   "originalPrice": 590,
   "images": [
-    "http://api.demo.nordiccoder.com/images/product_1_1.png",
-    "http://api.demo.nordiccoder.com/images/product_1_2.png"
+    "https://api.demo.nordiccoder.com/images/product_1_1.png",
+    "https://api.demo.nordiccoder.com/images/product_1_2.png"
   ],
   "thumbnails": [
-    "http://api.demo.nordiccoder.com/images/product_1_1.png",
-    "http://api.demo.nordiccoder.com/images/product_1_2.png"
+    "https://api.demo.nordiccoder.com/images/product_1_1.png",
+    "https://api.demo.nordiccoder.com/images/product_1_2.png"
   ]
 }
 

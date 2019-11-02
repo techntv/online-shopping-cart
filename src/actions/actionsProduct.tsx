@@ -5,7 +5,7 @@ export function fetchProducts() {
     dispatch({
       type: types.FETCH_PRODUCTS
     });
-    fetch('http://api.demo.nordiccoder.com/api/products')
+    fetch('https://api.demo.nordiccoder.com/api/products')
       .then((res) => {
         return res.json();
       })
@@ -32,7 +32,7 @@ export function fetchProductDetail(productid: string) {
       type: types.FETCH_PRODUCT_DETAIL
     });
 
-    fetch(`http://api.demo.nordiccoder.com/api/products/${productid}`)
+    fetch(`https://api.demo.nordiccoder.com/api/products/${productid}`)
       .then((res) => {
         return res.json();
       })
