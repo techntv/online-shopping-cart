@@ -29,7 +29,7 @@
     "@types/react-test-renderer": "^16.9.1",
     "bootstrap": "^4.3.1",
     "emotion": "^10.0.17",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "popper.js": "^1.15.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
